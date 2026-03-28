@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@import 'remixicon/fonts/remixicon.css';
+
+
+:root {
+  --primary-color: #00856F; 
+  --secondary-color: #FFFFFF;
+  --green-light: #DCE9E2;
+  --green-light-02: #F7F9F9;
+  --brand-beige: #FFFAF1;
+  --brand-green-hover: #00453A;
+}
+
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.hover-bg-primary:hover {
+  background-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.hover-text-primary:hover {
+  color: var(--primary-color);
+}
+
+.hover-white:hover {
+  color: white;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-light {
+  background-color: var(--green-light);
+}
+
+.bg-light-2 {
+  background-color: var(--green-light-02);
+}
+
+.text-hover:hover {
+  color: var(--brand-green-hover);
+}
+
+.text-bg-hover:hover {
+  background-color: var(--brand-green-hover);
+}
+
+.brand-beig {
+  background-color: var(--brand-beige);
+}
+
+:root {
+    --font-family: "DM Sans", sans-serif;
+}
+
+.primary-font {
+  font-family: var(--font-family);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+ /* Css Animation */
+
+ /* Text Animation */
+/* 
+ @keyframes textAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+ }
+
+ .hero-content {
+  animation: textAnimation 1.2s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+ } */
